@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c57165b-cfe3-4cda-8cec-5a5e2497be55" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devam.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754147085589</updated>
-      <workItem from="1754147086630" duration="10819000" />
+      <workItem from="1754147086630" duration="11273000" />
     </task>
     <servers />
   </component>
