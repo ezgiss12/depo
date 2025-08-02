@@ -1,33 +1,60 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Doğum Günü Devam</title>
     <style>
         body {
-            background-color: #ffe4f0;
-            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9acc 0%, #ff66b2 100%);
+            font-family: 'Comic Sans MS', cursive, Arial, sans-serif;
             text-align: center;
-            padding: 50px;
-            color: #a6006e;
+            padding: 50px 20px;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            box-sizing: border-box;
         }
-        button {
-            background-color: #ff66b2;
-            border: none;
-            color: white;
-            padding: 15px 30px;
-            font-size: 18px;
-            border-radius: 8px;
-            cursor: pointer;
-            margin-top: 40px;
+        h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px #aa0077;
+            margin-bottom: 0;
         }
-        button:hover {
-            background-color: #ff3399;
+        p {
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-shadow: 1px 1px 3px #aa0055;
         }
-    </style>
-</head>
-<body>
-    <h1>Ezgi 22 yaşına giriyor!</h1>
-    <p>Sizden de hediyelerini bekliyor 🎉🎁</p>
-</body>
-</html>
+        .balloons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .balloon {
+            width: 60px;
+            height: 90px;
+            background: radial-gradient(circle at 30% 30%, #fff 10%, #ff66b2 90%);
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        .balloon:nth-child(2) {
+            background: radial-gradient(circle at 30% 30%, #fff 10%, #ff99cc 90%);
+            animation-delay: 1s;
+        }
+        .balloon:nth-child(3) {
+            background: radial-gradient(circle at 30% 30%, #fff 10%, #ff3399 90%);
+            animation-delay: 2s;
+        }
+        .balloon::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            width: 2px;
+            height: 20px;
