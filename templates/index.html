@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ezgi'nin Doğum Günü</title>
+    <style>
+        body {
+            background-color: pink;
+            text-align: center;
+            font-family: 'Comic Sans MS', cursive;
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            margin-top: 30px;
+        }
+        .btn {
+            background-color: hotpink;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Ezgi'nin Doğum Günü 🎉</h1>
+    <img src="{{ url_for('static', filename='ezgi.gif') }}" alt="Doğum Günü Gif">
+    <br>
+    <a class="btn" href="/devam">Devam Et</a>
+</body>
+</html>
